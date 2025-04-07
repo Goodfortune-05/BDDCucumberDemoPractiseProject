@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.946 s <<< FAILURE! - in TestSuite
+cucumberOptions.TestNGRunner.runScenario["Search Experience for product search in both home and offers page", "Place the order for Products"](1)  Time elapsed: 5.866 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.LandingPage.incrementQuantity(int)" because "this.landingPage" is null
+
